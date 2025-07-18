@@ -1,0 +1,52 @@
+@import "./assets/styles/button.css";
+@import "./assets/styles/room.css";
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+
+  background: url(./assets/images/japanese-art.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+
+}
+
+
+.Portfolio {
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+
+
+
+
+.Portfolio-text h1 {
+  font-size: 80px;
+  color: #ffffff;
+  font-style: Serif;
+  text-shadow: #80e2ac;
+
+}
+
+.Portfolio-text p {
+  font-size: 19px;
+  margin-bottom: 16px;
+}
+
+
+.section {
+  padding: 48px 16px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
